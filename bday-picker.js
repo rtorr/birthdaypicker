@@ -44,9 +44,9 @@
 
       // Create the html picker skeleton
       var $fieldset = $("<fieldset class='birthday-picker'></fieldset>"),
-          $year = $("<select class='birth-year' name='birth[year]'></select>"),
-          $month = $("<select class='birth-month' name='birth[month]'></select>"),
-          $day = $("<select class='birth-day' name='birth[day]'></select>");
+          $year = $("<select class='birth-year' name='birth-year'></select>"),
+          $month = $("<select class='birth-month' name='birth-month'></select>"),
+          $day = $("<select class='birth-day' name='birth-day'></select>");
 
       if (settings["legend"]) { $("<legend>" + settings["legend"] + "</legend>").appendTo($fieldset); }
 
